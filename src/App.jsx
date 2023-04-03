@@ -1,6 +1,9 @@
 import React from "react";
 import LandingPage from './LandingPage';
 import NavBar from "./NavBar";
+import About from "./About";
+import Projects from "./Projects";
+
 import './index.css';
 
 function App() {
@@ -8,6 +11,8 @@ function App() {
         <>
             <NavBar />
             <LandingPage />
+            <About/>
+            <Projects/>
         </>
     )
 }
